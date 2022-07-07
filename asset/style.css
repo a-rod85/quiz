@@ -1,0 +1,48 @@
+body {
+    background: rgb(43, 0, 130);
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+    font-family: 'Roboto Slab', serif;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .genre-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .card {
+    width: 150px;
+    min-height: 100px;
+    height: auto;
+    border: solid 5px;
+    border-radius: 20px;
+    border-color: rgb(209, 212, 18);
+    padding: 10px;
+    margin: 10px;
+    /*background-color: rgb(209, 212, 18);*/
+    text-align: center;
+  }
+  
+  #game {
+    display: flex;
+  }
+  
+  #quiz {
+    display: flex;
+  }
+  
+  .correct-answer {
+    background-color: aquamarine;
+  }
+  
+  .false-answer {
+    background-color: rgba(213, 82, 82, 0.795);
+  }
